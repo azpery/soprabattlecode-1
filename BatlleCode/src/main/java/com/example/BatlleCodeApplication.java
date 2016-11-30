@@ -12,6 +12,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BatlleCodeApplication {
 
+	private String url; 
+	private String testname; 
+	private String password; 
+	
 	public static void main(String[] args) {
 		
 		SpringApplication.run(BatlleCodeApplication.class, args);
